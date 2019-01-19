@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header li:nth-child(3) {
+  border: 1px solid #b3b3b3;
+}
+.sve-bg {
+  background: #f9fbed;
+  height: 600px;
+}
+.sve-xq-text {
+  width: 1000px;
+  height: 200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+}
+.sve-xq-text p:nth-of-type(2) {
+  width: 800px;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  text-align: right;
+  border-bottom: 2px solid;
+}
+.sve-xq-text p:nth-of-type(2) span:nth-of-type(2) {
+  display: inline-block;
+  margin-top: 30px;
+}
+.sve-xq-bg {
+  width: 1000px;
+  margin: 0 auto;
+}
+.sve-xq-bg ul {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.sve-xq-bg ul li {
+  width: 315px;
+  height: 355px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.sve-xq-bg ul li h3 {
+  height: 32px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background: url(../img/img5/jiantou.png) no-repeat;
+}
+.sve-xq-bg ul li p {
+  color: #FFFFFF;
+}
+.sve-xq-bg ul li:nth-of-type(1) {
+  background: url(../img/img5/porsche-normalq.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sve-xq-bg ul li:nth-of-type(2) {
+  background: url(../img/img5/porsche-normal1222.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sve-xq-bg ul li:nth-of-type(3) {
+  background: url(../img/img5/porsche-normal1211.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.sve-xq-bg ul li:nth-of-type(3) p {
+  height: 40px;
+}
+.sve-xq-bg ul li:hover h3 {
+  color: red;
+}
+.sve-xq-bg ul li:hover p {
+  color: red;
+}
+.sve-tuozhuai {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sve-tuozhuai .sve-tuozhuai-t {
+  width: 1000px;
+  overflow: hidden;
+}
+.sve-tuozhuai .sve-tuozhuai-t .sve-tuozhuai-tu {
+  width: 2100px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.sve-tuozhuai .sve-tuozhuai-t .sve-tuozhuai-tu li {
+  width: 200px;
+  height: 280px;
+}
+.sve-tuozhuai .sve-tuozhuai-t .sve-tuozhuai-tu li p {
+  width: 200px;
+}
+.sve-tuozhuai .sve-tuozhuai-xian {
+  width: 1000px;
+  border-bottom: 2px solid;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sve-tuozhuai .sve-tuozhuai-xian article {
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  background: #a40000;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: -15px;
+}
+.activitiese {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  background-color: #f9fbed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.activitiese article {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.activitiese article article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.activitiese article article span {
+  font-size: 25px;
+}
+.activitiese article article p:nth-of-type(2) {
+  padding: 15px;
+  background: #7d7d7d;
+  border-radius: 10px;
+}
+.sxq-hover {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sxq-hover p {
+  text-align: center;
+}
+.sxq-hover .sxq-hover-bg {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.sxq-hover .sxq-hover-bg article {
+  width: 485px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  border-radius: 10px;
+  position: relative;
+  color: white;
+  cursor: pointer;
+}
+.sxq-hover .sxq-hover-bg article p {
+  width: 485px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+.sxq-hover .sxq-hover-bg article p:hover {
+  opacity: 0;
+}
+.sxq-hover .sxq-hover-bg article:nth-of-type(1) {
+  background: url(../img/img5/porsche-normal5678.png);
+  background-size: 100% 100%;
+}
+.sxq-hover .sxq-hover-bg article:nth-of-type(2) {
+  background: url(../img/img5/porsche-normal0986.png);
+  background-size: 100% 100%;
+}
+footer {
+  background-color: #f9fbed;
+}

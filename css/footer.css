@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer {
+  display: flex;
+  height: 102px;
+  width: 1000px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  height: 100px;
+}

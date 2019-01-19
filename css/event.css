@@ -1,0 +1,231 @@
+header li:nth-child(4) {
+  border: 1px solid #b3b3b3;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.bg {
+  width: 100%;
+}
+.box li:nth-child(4) {
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+}
+.shen {
+  font-family: inherit;
+}
+.shen section {
+  width: 1200px;
+  margin: 0 auto;
+}
+.shen section > h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 100;
+  margin: 20px 0;
+}
+.shen section > div {
+  display: flex;
+}
+.shen section > div > .art {
+  width: 507px;
+  margin-left: 100px;
+}
+.shen section > div > .art h3 {
+  font-size: 28px;
+  margin: 20px;
+}
+.shen section > div > .art p {
+  font-size: 16px;
+}
+.shen section > div > .art input {
+  width: 127px;
+  height: 50px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  margin: 30px 0;
+}
+.shen section > div > .art input:hover {
+  background: #d5001c;
+  transition: "2s ease";
+}
+article .menu1 {
+  width: 100%;
+  background: #eff0f1;
+  margin-top: -3px;
+}
+article .menu1 > div {
+  width: 1300px;
+  margin: 0 auto;
+  height: 60px;
+}
+article .menu1 > div nav {
+  cursor: pointer;
+  position: relative;
+  left: 20px;
+  font-size: 24px;
+}
+article .menu1 div:nth-of-type(2) {
+  width: 100%;
+  background: #eff0f1;
+}
+article .menu1 div:nth-of-type(2) .navail {
+  width: 60px;
+  height: 60px;
+  background: #950014;
+  position: relative;
+  left: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: "2s ease";
+}
+article .menu1 div:nth-of-type(2) .navail .na {
+  width: 25px;
+  height: 25px;
+  background: url("../img/icon/navail1.png") no-repeat;
+  background-size: contain;
+  position: relative;
+  z-index: 999;
+}
+article .menu1 div:nth-of-type(2) .navail:hover {
+  background-color: black;
+}
+article .menu1 div:nth-of-type(2) .navail:hover .na {
+  background: url(../img/icon/navai3.png) no-repeat;
+  background-size: contain;
+}
+.back > ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.back > ul > li {
+  padding-right: 20px;
+  border-right: 1px solid;
+}
+.back > ul > li:nth-last-child(1) {
+  border-right: 0;
+}
+hr {
+  width: 1200px;
+  margin: 0 auto;
+}
+.back1 {
+  width: 100%;
+}
+.back1 .back-back {
+  margin: 50px 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.back1 .back-back > li {
+  border-right: 0;
+  color: #848484;
+}
+.back1 .back-back > li > ul {
+  color: black;
+}
+.back1 .back-back > li > ul > li {
+  margin: 20px 0;
+}
+.back1 .back-back > li > ul > li:hover {
+  color: #d5001c;
+  cursor: pointer;
+}
+.choice {
+  background: #191f22;
+}
+.select {
+  display: flex;
+  justify-content: center;
+}
+.select select {
+  margin: 40px 20px;
+  width: 300px;
+  height: 50px;
+}
+.spare {
+  width: 292px;
+  height: 50px;
+  outline: none;
+  background: #191f22;
+  color: white;
+  text-align: left;
+  line-height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.spare .spare-icon {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+.spare:hover {
+  background: #d5001c;
+}
+.spare:hover .dis {
+  display: flex;
+}
+.dis {
+  position: absolute;
+  width: 300px;
+  flex-wrap: wrap;
+  background: white;
+  justify-content: left;
+  margin: 0 0 0 -10px;
+  border: 1px solid #848484;
+  display: none;
+}
+.dis img {
+  width: 95px;
+  display: block;
+  margin: 3px 2px ;
+  cursor: pointer;
+}
+.dis img:hover {
+  opacity: 0.7;
+}
+#posche {
+  color: #848484;
+  font-size: 24px;
+  margin: 40px 20px 0 20px;
+}
+#posche #posche-icon {
+  display: flex;
+}
+#posche #posche-icon > li {
+  width: 50px;
+  height: 50px;
+  background: black;
+  text-align: center;
+  line-height: 50px;
+}
+#posche #posche-icon > li > img {
+  width: 25px;
+  height: 25px;
+}
+#posche #posche-icon > li:hover {
+  background: #d5001c;
+}
+.news-box {
+  width: 1300px;
+  margin: 20px auto;
+}
+.news-box > p {
+  width: 600px;
+  font-size: 20px;
+}
+.news-box:hover {
+  color: red;
+  cursor: pointer;
+}

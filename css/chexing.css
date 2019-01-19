@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header li:nth-child(2) {
+  border: 1px solid #b3b3b3;
+}
+.car-lie {
+  margin: -9px auto;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.car-lie p {
+  width: 88px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border-bottom: 3px solid #a8a8a8;
+}
+.car-lie p span {
+  color: #bfbdbd;
+}
+.car-lie ul {
+  width: 775px;
+  height: 80px;
+}
+.car-lie ul li {
+  float: left;
+  width: 155px;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  background: url(../img/img2/bg-text.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position-y: 5px;
+}
+#qiehuan2 {
+  background-image: url(../img/img2/bg-text2.png);
+}
+.car {
+  position: relative;
+  cursor: pointer;
+}
+.che {
+  display: none;
+}
+.car-xing {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.car-xing .car-sanjiao {
+  height: 333px;
+  position: absolute;
+  top: 50px;
+}
+.car-xing .car-qingxie {
+  height: 250px;
+  position: absolute;
+  left: 180px;
+}
+.car-xing .car-car {
+  height: 150px;
+  position: absolute;
+  left: 323px;
+  top: 134px;
+}
+.car-xing .car-text1,
+.car-xing .car-text2,
+.car-xing .car-text3 {
+  position: absolute;
+}
+.car-xing .car-text1 {
+  left: 505px;
+  top: 30px;
+}
+.car-xing .car-text2 {
+  font-size: 8px;
+  left: 505px;
+  top: 277px;
+}
+.car-xing .car-text3 {
+  left: 60px;
+  top: 333px;
+}
+.car-xing .fengexian1 {
+  margin-top: 380px;
+  margin-left: 60px;
+  width: 555px;
+}
+.car-xing2 {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.car-xing2 .car-sanjiao2 {
+  height: 333px;
+  position: absolute;
+  top: -150px;
+  right: 0;
+}
+.car-xing2 .car-qingxie2 {
+  height: 250px;
+  position: absolute;
+  left: 0;
+}
+.car-xing2 .car-car2 {
+  height: 150px;
+  position: absolute;
+  left: 210px;
+  top: 134px;
+}
+.car-xing2 .car-text4,
+.car-xing2 .car-text5,
+.car-xing2 .car-text6 {
+  position: absolute;
+}
+.car-xing2 .car-text4 {
+  left: 55px;
+  top: 30px;
+}
+.car-xing2 .car-text5 {
+  font-size: 8px;
+  left: 55px;
+  top: 277px;
+}
+.car-xing2 .car-text6 {
+  left: 724px;
+  top: 333px;
+}
+.car-xing2 .fengexian2 {
+  margin-top: 380px;
+  margin-left: 300px;
+  width: 555px;
+}
+.yangshi {
+  height: 928px;
+  position: relative;
+}
+.gengduoyangshi {
+  width: 100%;
+  height: 555px;
+  background: url(../img/img2/bg-1.png);
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 999;
+}
+.gengduoyangshi .gengduoyangshi-text {
+  width: 1000px;
+  margin: 30px auto;
+}
+.gengduoyangshi .gengduoyangshi-text img:nth-of-type(1) {
+  margin-top: 55px;
+}
+.gengduoyangshi .gengduoyangshi-text p:nth-of-type(1) {
+  margin-left: 255px;
+}
+.gengduoyangshi .gengduoyangshi-text img:nth-of-type(2) {
+  margin-top: -72px;
+  margin-left: 355px;
+}
+.gengduoyangshi .gengduoyangshi-text p:nth-of-type(2) {
+  margin-left: 600px;
+}
+.gengduoyangshi .gengduoyangshi-text img:nth-of-type(3) {
+  margin-top: -72px;
+  margin-left: 700px;
+}
+.gengduoyangshi .gengduoyangshi-text p:nth-of-type(3) {
+  margin-left: 925px;
+}
+.datu {
+  width: 100%;
+  position: absolute;
+  top: 266px;
+  margin: 0 auto;
+}
+.datu img {
+  width: 100%;
+}
+.car-qi {
+  height: 500px;
+  background: #f9fbed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car-qi .car-qi-text {
+  margin-top: 50px;
+}
+.car-qi .car-qi-color {
+  height: 555px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.car-qi .car-qi-color .left_move,
+.car-qi .car-qi-color .right_move {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+}
+.car-qi .car-qi-color .left_move {
+  background: url(../img/img2/18.png);
+  background-size: cover;
+  background-position-x: 30px;
+  left: 495px;
+}
+.car-qi .car-qi-color .right_move {
+  background: url(../img/img2/18.png);
+  background-size: cover;
+  left: 822px;
+  cursor: pointer;
+}
+.car-qi .car-qi-color .car-qi-color-point {
+  display: flex;
+  width: 280px;
+  height: 50px;
+  justify-content: space-between;
+}
+.car-qi .car-qi-color .car-qi-color-point li {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.car-qi .car-qi-color .car-qi-color-point li p {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(1) p {
+  background-color: #ba0b1a;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(2) p {
+  background-color: #575757;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(3) p {
+  background-color: #b58d0f;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(4) p {
+  background-color: #000000;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(5) p {
+  background-color: #be1800;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(6) p {
+  background-color: #5da000;
+}
+.car-qi .car-qi-color .car-qi-color-point li:nth-child(7) p {
+  background-color: #84ab00;
+}
+.car-qi .car-qi-color .car-qi-color-point #da {
+  height: 30px;
+  width: 30px;
+}
+.car-qi .car-qi-color .car-qi-color2 {
+  margin-top: 50px;
+  position: relative;
+}
+.car-qi .car-qi-color .car-qi-color2 li {
+  position: absolute;
+  left: -360px;
+  display: none;
+}
+.car-qi .car-qi-color .car-qi-color2 #btn {
+  display: block;
+}
+.gengduo {
+  position: relative;
+  height: 834px;
+  background: url(../img/img2cheqi/9.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.gengduo .gengduo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gengduo .gengduo-text h1 {
+  margin-top: 50px;
+  text-align: center;
+}
+.gengduo .gengduo-text p:nth-of-type(1) {
+  text-align: center;
+  width: 778px;
+  font-size: 15px;
+}
+.gengduo .gengduo-bg-dingwei {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.gengduo .gengduo-bg-dingwei .gengduo-bg {
+  width: 480px;
+  height: 368px;
+  background: url(../img/img2cheqi/10.png);
+  text-align: center;
+  line-height: 368px;
+  margin-top: 90px;
+}
+.gengduo .gengduo-bg-dingwei .gengduo-bg2 {
+  width: 480px;
+  height: 368px;
+  background: url(../img/img2cheqi/8.png);
+  text-align: center;
+  line-height: 368px;
+  left: 99px;
+  top: 99px;
+}

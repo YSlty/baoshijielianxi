@@ -1,0 +1,257 @@
+header{	
+	li:nth-child(5){
+		border: 1px solid #b3b3b3;
+	}
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.bg{
+    width: 100%;
+}
+
+.box{	
+	li:nth-child(4){
+		border: 1px solid #b3b3b3;
+		border-radius: 10px;
+	}
+}
+.shen{
+    font-family: inherit;
+    section{
+        width: 1200px;
+        margin: 0 auto;
+        >h1{
+            text-align: center;
+            font-size: 36px;
+            font-weight: 100;
+            margin: 20px 0;
+        }
+        >div{
+            display: flex;
+            >.art{
+                width: 507px;
+                margin-left:100px;
+                h3{
+                    font-size: 28px;
+                    margin: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+                input{
+                    width: 127px;
+                    height: 50px;
+                    background: black;
+                    color: white;
+                    font-size: 20px;
+                    border: 0;
+                    outline: none;
+                    cursor: pointer;
+                    margin: 30px 0;
+                }
+                input:hover{
+                    background: #d5001c;
+                    transition: "2s ease"
+                }
+            }
+        }
+
+    }
+}
+article{
+    .menu1{ 
+        width: 100%;
+        background: #eff0f1;
+        
+        margin-top:-3px ;
+    >div{
+        width: 1300px;
+        margin: 0 auto;
+        height: 60px;
+        nav{
+            cursor: pointer;
+            position: relative;
+            left: 20px;
+            font-size: 24px;
+        }
+    }
+    
+    div:nth-of-type(2){ 
+        width: 100%; 
+        background: #eff0f1;
+        
+        .navail{
+            width: 60px;
+            height: 60px;
+            background: #950014;
+            position: relative;
+            left: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer; 
+            margin-left:20px;
+            transition: "2s ease";
+            .na{
+                width: 25px;
+                height: 25px;
+                background: url("../img/icon/navail1.png") no-repeat;
+                background-size: contain;
+                position: relative;
+                z-index: 999;
+            }
+
+            
+        }
+        .navail:hover{
+            background-color: black;
+            .na{
+            background: url(../img/icon/navai3.png) no-repeat;
+            background-size: contain;
+        }
+        
+        }
+        
+    }
+    }      
+}
+.back{
+    >ul{
+        display: flex;
+        justify-content: space-between;
+        margin:30px 0;
+        >li{
+            padding-right:20px;
+            border-right: 1px solid;
+        }
+        >li:nth-last-child(1){
+
+border-right: 0;
+        }
+    }
+}
+hr{
+    width: 1200px;
+    margin: 0 auto;
+}
+.back1{
+    width: 100%;
+    .back-back{
+        margin:50px 0 100px 0;
+        display:flex;
+        justify-content:space-between;
+    >li{
+        border-right: 0;
+        color: #848484;
+        >ul{
+            color: black;
+            >li{
+                margin: 20px 0;
+            }
+            >li:hover{
+                color:#d5001c;
+                cursor: pointer;
+            }
+            
+        }
+    }
+    }
+}
+.choice{
+    background: #191f22;
+}
+  .select{
+    display: flex;
+    justify-content: center;
+    select{
+        margin: 40px 20px;
+        width: 300px;
+        height: 50px;
+    }
+}
+.spare{
+    width: 292px;
+    height: 50px;
+    outline: none;
+    background: #191f22;
+    color: white;
+    text-align: left;
+    line-height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    .spare-icon{
+        width: 25px;
+        height: 25px;
+        vertical-align: middle;
+    }
+    
+
+}
+.spare:hover{
+    background: #d5001c;
+}
+.spare:hover .dis{
+    display:flex;
+}
+.dis{
+    position: absolute;
+    width: 300px;
+    // display: flex;
+    flex-wrap: wrap;
+    background: white;
+    justify-content:left;
+    margin: 0 0 0 -10px;
+    border: 1px solid #848484;
+    display: none;
+    img{
+		width: 95px;
+        display: block;
+        margin: 3px 2px ;
+        cursor: pointer;
+    }
+    img:hover{
+        opacity: 0.7;
+    }
+}
+#posche{
+    color: #848484;
+    font-size: 24px;
+    margin: 40px 20px 0 20px;
+    #posche-icon{
+        display: flex;
+        >li{
+        width: 50px;
+        height: 50px;
+        background: black;
+            text-align: center; 
+            line-height: 50px;
+        >img{
+            width: 25px;
+            height: 25px;
+        }
+
+    }
+    >li:hover{
+        background: #d5001c;
+    }
+}
+}
+.news-box{
+    width: 1300px;
+    margin: 20px auto;
+    >p{
+        width: 600px;
+        font-size: 20px;
+    }
+    
+}
+.news-box:hover{
+        color:red;
+        cursor: pointer;
+    }

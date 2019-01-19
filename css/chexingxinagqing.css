@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header li:nth-child(2) {
+  border: 1px solid #b3b3b3;
+}
+.nav-bg {
+  width: 100%;
+  height: 759px;
+  background: url(../img/img3/porsche-zoom23.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  overflow: hidden;
+}
+.nav-bg h1 {
+  color: #f0f0f0;
+  margin-top: 630px;
+  margin-left: 100px;
+}
+.nav-bg ul {
+  display: flex;
+  margin-left: 100px;
+}
+.nav-bg ul li {
+  padding: 5px;
+  color: #f0f0f0;
+}
+.nav-bg ul li:nth-child(2) {
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+}
+.big-bg {
+  height: 1911px;
+  background: url(../img/img3/bg-1.jpg);
+  background-size: 100%;
+  position: relative;
+}
+.big-bg .big-bg-text {
+  width: 1000px;
+  height: 80px;
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+}
+.big-bg .big-bg-text .big-bg-text-1 span {
+  color: #cccdc3;
+}
+.big-bg .big-bg-text .big-bg-text-2 {
+  position: absolute;
+  right: 0;
+}
+.big-bg .big-bg-text .big-bg-text-2 p:nth-of-type(1) {
+  margin-top: 90px;
+}
+.big-bg .big-bg-text .big-bg-text-2 p:nth-of-type(2) {
+  margin-top: 30px;
+  color: #a70c0b;
+}
+.big-bg .big-bg-text .chexing-2 {
+  width: 480px;
+  margin-left: 215px;
+  margin-top: 115px;
+}
+.big-bg .big-bg-text .xingneng {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+}
+.big-bg .big-bg-text .xingneng .xingneng-img img {
+  width: 300px;
+}
+.big-bg .big-bg-text .xingneng .xingneng-text {
+  width: 600px;
+  color: #bfbdbf;
+}
+.big-bg .big-bg-text .neishi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 400px;
+}
+.big-bg .big-bg-text .neishi .neishi-img img {
+  width: 300px;
+}
+.big-bg .big-bg-text .neishi .neishi-text {
+  width: 600px;
+  color: #bfbdbf;
+}
+.big-bg .big-bg-text .xuangua {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+}
+.big-bg .big-bg-text .xuangua .xuangua-img img {
+  width: 300px;
+}
+.big-bg .big-bg-text .xuangua .xuangua-text {
+  width: 600px;
+  color: #bfbdbf;
+}
+.big-bg .foot-bg {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.big-bg .foot-bg img {
+  width: 100%;
+}
+.jianjie {
+  width: 1000px;
+  height: 580px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: -50px;
+}
+.jianjie .waiguan {
+  width: 49.9%;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/img3/chexing-8.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.jianjie .waiguan article {
+  width: 90%;
+  float: right;
+}
+.jianjie .waiguan p {
+  margin-top: 50px;
+}
+.jianjie .waiguan img {
+  width: 300px;
+  float: right;
+  clear: both;
+  position: relative;
+  left: 50px;
+}
+.jianjie .neishi2 {
+  width: 49.9%;
+  height: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  background: url(../img/img3/chexing-8.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.jianjie .neishi2 article {
+  width: 90%;
+}
+.jianjie .neishi2 article p {
+  margin-top: 50px;
+}
+.jianjie .neishi2 img {
+  width: 200px;
+  float: left;
+  clear: both;
+  margin-left: -50px;
+}

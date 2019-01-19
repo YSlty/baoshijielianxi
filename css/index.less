@@ -1,0 +1,404 @@
+@display: flex;
+@text-align: center;
+@margin:0 auto;
+@margin-top:10px;
+.width(@width) {
+  width: @width;
+}
+.height(@height) {
+  height: @height;
+}
+@color:#9f9d9b;
+*{
+	margin: 0;
+	padding: 0;
+    list-style: none;
+}
+header{	
+	li:nth-child(1){
+		border: 1px solid #b3b3b3;
+	}
+}
+.legendjia{
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.legend2,.legend3{
+			border: 1px solid;
+			border-radius: 5px;
+			.width(180px);
+			font-size: 20px;
+			line-height: 36px;
+			text-align: center;
+}
+//   第一个轮播样式
+  .carlunbo{
+    .width(100%);
+		height: 520px;
+    margin:0 auto;
+    position: relative;
+    background: #f9fbed;
+    margin-bottom: -163px;
+    
+		
+		article:nth-of-type(1){
+			width: 1000px;
+			height: 150px;
+			margin: 0 auto;
+			display: flex;
+			align-items: center;
+			 .legend{
+			    border: 1px solid;
+			    border-radius: 5px;
+			    .width(180px);
+			    font-size: 20px;
+			    line-height: 36px;
+			    text-align: center;
+			}
+			div:nth-of-type(2){
+				width: 800px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				h1{
+        width: 300px;
+        // margin:10px auto;
+        text-align: left;
+        font-size: 36px;
+
+    }
+    p{
+        width: 300px;
+        // margin: 20px auto;
+        color:#9f9d9b;
+    }
+			}
+			
+			
+		}
+    article:nth-of-type(2){
+				width: 1000px;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				margin-top: 50px;
+				p{
+						width: 300px;
+						color:#9f9d9b;
+				}
+			}
+    
+    .car-lunbo{
+        height: 120px;
+        width: 1200px;
+        margin: @margin;
+        position: relative;
+    img{
+      .height(120px);
+      vertical-align: middle;
+      opacity: 0.3;
+      position: absolute;
+      transition: 1s all ease-out;
+    
+	}
+	.p1 {
+      transform: rotateY(30deg) translateX(5px) translateZ(20px);
+      z-index: 1;
+    }
+    .p2 {
+      transform: rotateY(0deg) translateX(400px) translateZ(70px);
+      opacity: 1;
+      z-index: 2;
+    }
+    .p3 {
+      transform: rotateY(30deg) translateX(880px) translateZ(20px);
+      z-index: 1;
+    }
+    .p4 {
+      transform: rotateY(40deg) translateX(880px) translateZ(-20px);
+      z-index: -1;
+    }
+    .p5 {
+      transform: rotateY(40deg) translateX(5px) translateZ(-20px);
+      z-index: -1;
+    }
+}
+    >.img1 {
+        .width(50px);
+        .height(76px);
+        position: absolute;
+        background: url("../img/img1/leftc1.png") no-repeat;
+        background-size: contain;
+        top: 50%;
+        left: 50px;
+        margin-top: -38px;
+      }
+    >.img2 {
+        .width(50px);
+        .height(76px);
+        position: absolute;
+        background: url("../img/img1/rightc2.png") no-repeat;
+        background-size: contain;
+        top: 50%;
+        right: 50px;
+        margin-top: -38px;
+      }
+
+  }
+ 
+  
+// 第二个轮播样式
+ .imgbg{
+     .width(100%);
+     position:relative;
+	 
+     nav{
+      .width(1000px);
+      margin: 0 auto;
+      position: relative;
+    //   top:-65px;
+      h1{
+          position: relative;
+          left: 20px;
+          top:165px;
+          color: white;
+          font-size: 20px;
+          font-weight: 900;
+      }
+      p{
+        position: relative;
+        left: 20px;
+        top:165px;
+        color: white;
+        font-size: 20px;
+      }
+      .right2{
+          color:black;
+          left:400px;
+          top:124px;
+          font-size: 32px;
+          width:150px;
+
+      }
+      #left1{
+        width: 158px;
+        .height(52px);
+        position: relative;
+        left: 20px;
+        top:156px;
+        background: white;
+        text-align: center;
+        line-height:52px;
+        border-radius: 10px;
+        font-size: 26px;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+      }
+      #right1
+      {
+        width: 130px;
+        .height(52px);
+        position: relative;
+        left:380px;
+        top:80px;
+        background: transparent;
+        text-align: center;
+        line-height:52px;
+        border-radius: 10px;
+        font-size: 26px;
+        border: 1px solid;
+        outline: none;
+        cursor: pointer;
+      }
+      img{
+          width: 100%;
+      }
+    }
+
+    }
+    .story{
+        background: #f9fbed;
+        .width(100%);
+        position: relative;
+        div{
+            .width(1200px);
+            margin:@margin;
+            display: flex;
+            justify-content: space-around;
+            #car2{
+                width: 400px;
+                height: 300px;
+                border-radius: 50%;
+                margin: 40px auto;
+                
+            }
+            #person{
+                width: 300px;
+                height: 400px;
+                margin: 40px auto;
+                border-radius: 50%;
+            }
+          
+            
+        }
+        >nav{
+            width: 800px;
+            margin:@margin;
+            h1{
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+            p{
+                color:@color;
+                font-size: 20px;
+            }
+        }
+
+    }
+    .buy{
+        position: relative;
+        .width(100%);
+
+        >nav{
+            .width(1000px);
+            margin:@margin;
+            position: relative;
+            padding-top:111px;
+        img{
+            .width(600px);
+            .height(370px);
+						position: absolute;
+        }}
+				.rightm{
+					width: 1000px;
+					margin: 0 auto;
+					 pre{        
+            text-align: right;
+            line-height: 30px;
+        }
+				}
+       
+    
+    }
+    .consult{
+        width: 100%;
+        // position: relative;
+        background: #f9fbed;
+        nav{
+            width: 1000px;
+            height: 400px;
+            margin:@margin;
+            position: relative;
+            img{
+                .height(400px);
+                position: absolute;
+                top: 0;
+                right:0;
+            }
+            div{
+                position: relative;
+                top: 30%;
+                
+            }
+        }
+        input{
+                position: relative;
+                top:160px;
+                .width(253px);
+                .height(60px);
+                border: 3px solid;
+                background: #f9fbed;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        
+    }
+.recommend{
+    .width(100%);
+    .first{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .width(1000px);
+        margin: @margin;
+				li{
+					.width(400px;);
+					.height(200px);
+					border-radius: 10px;
+					display: flex;
+					align-items: center;
+				}
+				
+        li:nth-of-type(1){           
+            background: url(../img/img1/wei1.jpg) no-repeat;
+            background-size: cover;
+            margin:150px 0 50px 0;            
+        }
+        li:nth-of-type(2){          
+            background: url(../img/img1/wei2.jpg) no-repeat;
+            background-size: cover;
+            margin:150px 0 50px 0;        
+        }
+        li:nth-of-type(3){           
+            background: url(../img/img1/wei3.jpg) no-repeat;
+            background-size: cover;           
+        }
+        li:nth-of-type(4){          
+            background: url(../img/img1/wei4.jpg) no-repeat;
+            background-size: cover;            
+        }
+        h1{
+            width: 100%;
+            .height(80px);
+            background: rgba(255,255,255,0.5);
+            text-align: center;
+            line-height: 80px;
+            font-size: 20px;
+        }
+    }
+    
+
+    }
+    .adv{
+        .width(100%);
+        .second{
+			width: 1000px;
+            display: flex;
+			margin: 0 auto;
+            justify-content: space-between;
+			li{
+				.width(300px);
+				.height(220px);
+				border-radius: 10px;
+				position: relative;
+				margin: 60px 0 20px 0;
+			}
+            li:nth-of-type(1){               
+                background:url(../img/img1/wei-wb.jpg);	
+											background-repeat: no-repeat;
+											background-size: 100% 100%;
+            }
+            li:nth-of-type(2){               
+                background:url(../img/img1/xl.jpg);	
+										background-repeat: no-repeat;
+										background-size: 100% 100%;
+            }
+            li:nth-of-type(3){             
+                background:url(../img/img1/wei-wb.jpg);
+												background-repeat: no-repeat;
+												background-size: 100% 100%;
+            }
+             img{
+                    .width(100px);
+                    .height(80px);
+                    position: absolute;
+                    right: 0;
+                    bottom: 0;
+                }
+        }
+
+    }
